@@ -267,13 +267,14 @@
 
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
+            
            <!--- <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">  changing icon-->
            <span class="fa-stack fa-4x "> 
+              <div class="portfolio-hover">   <!--moved hover class into span-->
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
